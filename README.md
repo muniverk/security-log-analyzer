@@ -1,90 +1,46 @@
-# Security Log Analyzer
+project: Security Log Analyzer  
+author: Muniver Kharod  
 
-**Author:** Muniver Kharod  
-**Project Type:** Python cybersecurity project  
-**Focus:** Security monitoring, suspicious login detection, and simple alert reporting  
+purpose: This is a small Python project I built to explore basic cybersecurity concepts, specifically how login activity can be analyzed to detect suspicious behavior.
 
-## Project Summary
-This project analyzes authentication logs and flags suspicious activity such as:
-- repeated failed login attempts
-- successful access after multiple failures
-- possible impossible-travel events
+The program reads an authentication log file and looks for patterns that might indicate something unusual. For example, it flags repeated failed login attempts from the same IP address, cases where a user logs in successfully after multiple failures, and situations where a user appears to log in from different countries within a short time period.
 
-It is a beginner-friendly project that demonstrates Python programming, security monitoring logic, and structured reporting through CSV and JSON files.
+The goal of this project was to get more comfortable working with Python while also learning how security monitoring works at a basic level. It also helped me practice organizing output in a way that would be useful for someone reviewing potential security incidents.
 
-## Why this project is relevant
-This project shows experience with:
-- Python
-- cybersecurity fundamentals
-- threat detection logic
-- log analysis
-- incident identification
-- alert reporting
+What the project uses:
+- Python (file handling, loops, conditionals)
+- basic pattern detection logic
+- simple data reporting using CSV and JSON files
 
-## Files included
-- `security_log_analyzer.py` → main Python script
-- `sample_auth.log` → sample log file to test the project
-- `alerts.csv` → generated alert report
-- `summary.json` → generated summary report
-- `sample_run_output.txt` → example terminal output
-- `README.md` → project instructions
+Files in this project:
+- security_log_analyzer.py (main script)
+- sample_auth.log (test log file)
+- alerts.csv (generated alert output)
+- summary.json (generated summary data)
+- sample_run_output.txt (example of terminal output)
 
-## How to run it on your computer
+How to run it:
 
-### Step 1: Make sure Python is installed
-Open Terminal and type:
+First, make sure Python is installed:
 
-```bash
 python3 --version
-```
 
-If Python is installed, you should see a version number.
+Then open Terminal and navigate to the project folder. For example, if it’s in Downloads:
 
-### Step 2: Put the project folder somewhere easy to find
-For example:
-- Downloads
-- Desktop
-
-If you downloaded the zip file, unzip it first.
-
-### Step 3: Open Terminal
-On Mac:
-- press `Command + Space`
-- type `Terminal`
-- press Enter
-
-### Step 4: Go into the project folder
-If the folder is in Downloads, type:
-
-```bash
 cd ~/Downloads/security_log_analyzer
-```
 
-If it is somewhere else, go to that folder instead.
+Run the script using:
 
-### Step 5: Run the script
-Type:
-
-```bash
 python3 security_log_analyzer.py --input sample_auth.log
-```
 
-### Step 6: View the generated files
-After running it, these files will be created or updated in the same folder:
-- `alerts.csv`
-- `summary.json`
+After running it, the script will generate:
+- alerts.csv
+- summary.json
 
-You can open them normally:
-- `alerts.csv` in Excel, Numbers, or Google Sheets
-- `summary.json` in VS Code or any text editor
+These files contain the detected alerts and a summary of the log activity.
 
-## Important note
-This project does **not** need to be compiled.
+Note:
+This project does not require compiling since Python runs directly from the script.
 
-Python is an interpreted language, so you **run** it instead of compiling it.
-
-## Example output
-When you run the script with the sample log file, it will produce alerts such as:
-- repeated failed logins from the same IP
-- impossible travel between countries in a short time
+Overall, this project was a way for me to combine programming with basic cybersecurity ideas and get hands-on experience analyzing simple log data.
 
