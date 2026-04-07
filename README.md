@@ -88,9 +88,3 @@ When you run the script with the sample log file, it will produce alerts such as
 - repeated failed logins from the same IP
 - impossible travel between countries in a short time
 
-## Resume bullets
-- Developed a Python-based security log analyzer to detect suspicious login activity, including repeated failed attempts and possible impossible-travel events.
-- Built automated CSV and JSON reporting to summarize security alerts and support incident review.
-
-## How to explain it in an interview
-“I built a Python project that analyzes authentication logs and flags suspicious login activity. It detects repeated failed attempts and certain unusual login patterns, then exports the results into structured files for review. I made it to strengthen my understanding of cybersecurity monitoring and practical Python scripting.”
