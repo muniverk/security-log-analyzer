@@ -1,0 +1,9 @@
+2026-04-01T09:00:00Z | user=mkharod | ip=203.0.113.10 | country=Canada | action=login | status=failed
+2026-04-01T09:02:00Z | user=mkharod | ip=203.0.113.10 | country=Canada | action=login | status=failed
+2026-04-01T09:05:00Z | user=mkharod | ip=203.0.113.10 | country=Canada | action=login | status=failed
+2026-04-01T09:06:00Z | user=mkharod | ip=203.0.113.10 | country=Canada | action=login | status=success
+2026-04-01T11:10:00Z | user=analyst1 | ip=198.51.100.25 | country=Canada | action=login | status=success
+2026-04-01T12:20:00Z | user=analyst1 | ip=145.23.18.44 | country=Germany | action=login | status=success
+2026-04-01T13:00:00Z | user=guest | ip=10.0.0.5 | country=Canada | action=login | status=failed
+2026-04-01T13:10:00Z | user=guest | ip=10.0.0.5 | country=Canada | action=login | status=failed
+2026-04-01T14:00:00Z | user=admin | ip=172.16.5.22 | country=Canada | action=login | status=success

@@ -1,0 +1,14 @@
+
+=== Security Log Analyzer Summary ===
+Total events:       9
+Successful events:  4
+Failed events:      5
+Alerts generated:   2
+
+Top failed IPs:
+  - 203.0.113.10: 3 failed attempts
+  - 10.0.0.5: 2 failed attempts
+
+Alerts:
+  1. [High] Repeated Failed Logins | 3 failed login attempts for user 'mkharod' from IP 203.0.113.10 within 10 minutes.
+  2. [Medium] Impossible Travel | User 'analyst1' logged in successfully from Canada and then from Germany within 1:10:00.
